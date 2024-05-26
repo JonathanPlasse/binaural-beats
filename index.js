@@ -34,7 +34,7 @@ playButton.addEventListener("click", () => {
   let b = Number(beatInput.value);
   let f = Number(baseFrequencyInput.value);
 
-  oscillators[0].frequency.value = f;
+  oscillators[0].frequency.value = f - b;
   oscillators[1].frequency.value = f + b;
 });
 
