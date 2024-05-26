@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "binaural-beats"
+version = "0.1.0"
+description = ""
+authors = ["Jonathan Plasse <jonathan.plasse@live.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
